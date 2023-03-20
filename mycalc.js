@@ -7,6 +7,7 @@ function calculator(str) {
     throw new Error('Input must be a string');
   }
 
+
   const expression = str.split(' ');
   [leftNum, symbolOperations, RightNum] = expression;
 
